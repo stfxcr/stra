@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'aiprrmoh_kethi'),
       user: env('DATABASE_USERNAME', 'aiprrmoh_rin'),
       password: env('DATABASE_PASSWORD', 'Keimah&*(987#@!'),
-      ssl: env.bool('DATABASE_SSL', false),
+      ssl: env.bool('DATABASE_SSL', true),
     },
   },
 });
